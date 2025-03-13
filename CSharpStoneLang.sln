@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStoneLang", "src\CSharpStoneLang\CSharpStoneLang.csproj", "{FCFD2A3A-B851-4CAA-92C0-B74316314972}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{60C4A7CC-B89E-4506-A202-75301AA13C2E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{395CFADD-D0FA-4EE8-BB39-5DE6B9D8E7F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCFD2A3A-B851-4CAA-92C0-B74316314972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFD2A3A-B851-4CAA-92C0-B74316314972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFD2A3A-B851-4CAA-92C0-B74316314972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFD2A3A-B851-4CAA-92C0-B74316314972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCFD2A3A-B851-4CAA-92C0-B74316314972} = {60C4A7CC-B89E-4506-A202-75301AA13C2E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E0ED7FE-4E35-4696-B450-6F953F798EEA}
+	EndGlobalSection
+EndGlobal
