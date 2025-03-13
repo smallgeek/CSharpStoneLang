@@ -1,0 +1,17 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Xml files
+[*.xml]
+charset = utf-8
+indent_size = 2
+
+# C# files
+[*.cs]
+charset = utf-8
+indent_size = 4
