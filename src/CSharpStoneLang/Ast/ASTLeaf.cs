@@ -46,6 +46,17 @@ namespace CSharpStoneLang.Ast
         /// <exception cref="IndexOutOfRangeException"></exception>
         public override ASTree Child(int i) => throw new IndexOutOfRangeException();
 
+        /// <summary>
+        /// 抽象構文木を評価する
+        /// </summary>
+        /// <param name="env"></param>
+        /// <returns></returns>
+        /// <exception cref="StoneException"></exception>
+        public override object Eval(IEnviroment env)
+        {
+            throw new StoneException("cannot eval: " + ToString());
+        }
+
         public override IEnumerator<ASTree> GetEnumerator() => empty.GetEnumerator();
     }
 }

@@ -54,6 +54,17 @@ namespace CSharpStoneLang.Ast
         /// <returns></returns>
         public override ASTree Child(int i) => children[i];
 
+        /// <summary>
+        /// 抽象構文木を評価する
+        /// </summary>
+        /// <param name="env"></param>
+        /// <returns></returns>
+        /// <exception cref="StoneException"></exception>
+        public override object Eval(IEnviroment env)
+        {
+            throw new StoneException("cannot eval: " + ToString());
+        }
+
         public override IEnumerator<ASTree> GetEnumerator() => children.GetEnumerator();
 
         /// <summary>

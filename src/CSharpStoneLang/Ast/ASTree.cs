@@ -4,6 +4,9 @@ namespace CSharpStoneLang.Ast
 {
     public abstract class ASTree : IEnumerable<ASTree>
     {
+        public const int TRUE = 1;
+        public const int FALSE = 0;
+
         /// <summary>
         /// 子の数
         /// </summary>
@@ -28,6 +31,13 @@ namespace CSharpStoneLang.Ast
         /// <param name="i"></param>
         /// <returns></returns>
         public abstract ASTree Child(int i);
+
+        /// <summary>
+        /// 抽象構文木を評価する
+        /// </summary>
+        /// <param name="env"></param>
+        /// <returns></returns>
+        public abstract object Eval(IEnviroment env);
 
         public abstract IEnumerator<ASTree> GetEnumerator();
 
